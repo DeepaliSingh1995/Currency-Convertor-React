@@ -1,7 +1,7 @@
 import React,{ useState } from 'react'
 import './App.css'
 import { InputBox } from './components'   // index.js file is called by default and all the components are imported in index file. Thus we will not put index.js in the path here.
-import {useCurrencyInfo} from "./hooks/useCurrencyInfo";
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 
 
 function App() {
